@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "drdo")(type "KiCad")(uri "D:/E drive/Summer-2024/Kicad/sensor&lora/footprint/drdo.pretty")(options "")(descr ""))
+)
