@@ -81,7 +81,7 @@ void setup() {
 void loop() {
     pox.update();
 
-    if (millis() - tsLastReport > 10000) {  // Send data every 10 seconds
+    if (millis() - tsLastReport > 1000) {  // Send data every 10 seconds
         float heartRate = pox.getHeartRate();
         float spO2 = pox.getSpO2();
         float ambientTempC = mlx.readAmbientTempC();
