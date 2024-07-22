@@ -3,8 +3,8 @@
 #include <LoRa.h>
 
 // SSID and Password of your WiFi router
-const char* ssid = "enigma";
-const char* password = "87654321";
+const char* ssid = "motog52";
+const char* password = "12ka442ka1";
 
 // LoRa pins
 #define LORA_SS 5

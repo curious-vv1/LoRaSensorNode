@@ -10,14 +10,14 @@ Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 #define SDA_PIN_MAX30100 21
 #define SCL_PIN_MAX30100 22
 
-#define SDA_PIN_MLX90614 4
-#define SCL_PIN_MLX90614 27
+#define SDA_PIN_MLX90614 33
+#define SCL_PIN_MLX90614 32
 #define MLX90614_ADDR 0x5A
 
-#define GSR_PIN 32
+#define GSR_PIN 26
 
 #define LORA_SS 5
-#define LORA_RST 14
+#define LORA_RST 12
 #define LORA_DIO0 2
 
 TwoWire WireMAX30100(0);
